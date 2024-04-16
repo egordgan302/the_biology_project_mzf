@@ -1,20 +1,66 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-.navbar, .navlinks{
-    display: flex;
-    justify-content:center;
-    align-items:flex-start;
-    gap: 20px;
-    margin: 15px;
-    padding: 20px;
-    font-weight: bold;
+
+body{
+    background: linear-gradient(90deg, #edefee,#c9c9c9);
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.playfair-display-uniquifier {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.conteiner-header{
+  display: flex;
+  gap: 100px;
+  background: -webkit-linear-gradient(90deg, #181a1e,#373a40,#484c56);
+}
+
+.header ul{
+  padding-top: 70px;
+  display: flex;
+  gap: 250px;
+  font-size: 25px;
+}
+.header li{
+    list-style-type: none;
+    display: list-item;
+    white-space: nowrap;
+    text-align: -webkit-match-parent;
+    font-size: 25px;
+    
+}
+.management{
     font-size: 25px;
 }
-#logo{
-    width: 100px;
-    display: flex;
-    justify-content: left;
+#text{
+    font-size: 20px;
 }
+.footer{
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+        
+
+
+
+
+
+ 
